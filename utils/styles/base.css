@@ -1,0 +1,179 @@
+/* 基础公共样式 */
+page {
+	background-color: #f3f3f3;
+	color: #333;
+}
+
+image {
+	width: 100%;
+	height: 100%;
+}
+swiper {
+  width: 100%;
+}
+.main {
+	color: #FBCB5A
+}
+.mainBorder {
+	border-color: #FBCB5A;
+}
+.mainBack {
+	background: #FBCB5A;
+}
+.red {
+	color: #dd0000
+}
+.redBorder {
+	border-color: #dd0000;
+}
+.redBack {
+	background: #dd0000;
+}
+.green {
+	color: #00b26a
+}
+.greenBorder {
+	border-color: #00b26a;
+}
+.greenBack {
+	background: #00b26a;
+}
+.yellow {
+	color: #FBCB5A
+}
+.yellowBorder {
+	border-color: #FBCB5A;
+}
+.yellowBack {
+	background: #FBCB5A;
+}
+.gray {
+	color: #999
+}
+.darkgray {
+	color: #666
+}
+.grayBorder {
+	border-color: #e3e3e3;
+}
+.grayBack {
+	background: #e3e3e3;
+}
+.white {
+	color: #fff
+}
+
+.whiteBack {
+	background: #fff;
+}
+
+.noMarginLeft {
+	margin-left: 0 !important;
+}
+
+.flex {
+	display: flex;
+}
+
+.flexWrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flexXCenter {
+	display: flex;
+	justify-content: center;
+}
+
+.flexYCenter {
+	display: flex;
+	align-items: center;
+}
+
+.flexBt {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flexAr {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flexBtCenter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flexArCenter {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.clamp1 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	word-break: break-word;
+}
+
+.clamp2 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	word-break: break-word;
+}
+
+.clamp3 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	word-break: break-word;
+}
+
+@media screen and (min-width:500px) {
+	uni-app {
+		width: 375px !important;
+		height: 812px !important;
+		overflow: hidden;
+		overflow-y: scroll;
+		margin: 0 auto;
+		position: relative;
+		top: 50px;
+		box-shadow: 0 0 20px 2px #e3e3e3;
+		border-radius: 20px;
+	}
+
+	.uni-page-head {
+		width: 375px !important;
+		margin: 0 auto;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+
+	uni-tabbar,
+	.uni-tabbar {
+		width: 375px !important;
+		left: calc((100% - 375px)/2) !important;
+		top: 812px !important;
+		height: 50px;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+
+	::-webkit-scrollbar {
+		width: 0px;
+		height: 0px;
+	}
+}

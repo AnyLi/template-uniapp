@@ -1,0 +1,53 @@
+{
+	"pages": [{
+		"path": "pages/index/index"
+	}, {
+		"path": "pages/share/index",
+		"style": {
+			"navigationBarTitleText": "发现"
+		}
+	},{
+		"path": "pages/mine/index",
+		"style": {
+			"navigationBarTitleText": "我的"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "项目名称",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#CDCDCD",
+		"selectedColor": "#FBCB5A",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/indexFill.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/share/index",
+				"iconPath": "static/tabbar/share.png",
+				"selectedIconPath": "static/tabbar/shareFill.png",
+				"text": "发现"
+			}, {
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/tabbar/mine.png",
+				"selectedIconPath": "static/tabbar/mineFill.png",
+				"text": "我的"
+			}
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	}
+}
